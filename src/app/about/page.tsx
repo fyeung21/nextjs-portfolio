@@ -1,16 +1,18 @@
+import aboutData from '../../../public/about';
+
 export default function About() {
   return (
     <section>
-      <h2>About Me</h2>
+      <h2>{aboutData[0].heading}</h2>
       <article>
         <div>
           <img />
         </div>
         <div>
           <p>
-            Location: <span>Vancouver, BC</span>
+            Location: <span>{aboutData[0].location}</span>
           </p>
-          <section>biography here</section>
+          <section>{aboutData[0].bio}</section>
         </div>
       </article>
       <article>
