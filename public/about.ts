@@ -1,4 +1,4 @@
-const aboutData = [
+const aboutInfo = [
   {
     id: 0,
     title: 'About Me',
@@ -11,4 +11,4 @@ const aboutData = [
   },
 ];
 
-export default aboutData;
+export default aboutInfo;

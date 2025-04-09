@@ -1,4 +1,4 @@
-const skillsData = [
+const skillsList = [
   {
     id: 0,
     title: 'Front-end',
@@ -16,4 +16,4 @@ const skillsData = [
   },
 ];
 
-export default skillsData;
+export default skillsList;

@@ -1,18 +1,18 @@
-import aboutData from '../../../public/about';
+import aboutInfo from '../../../public/about';
 
 export default function About() {
   return (
     <section>
-      <h2>{aboutData[0].heading}</h2>
+      <h2>{aboutInfo[0].heading}</h2>
       <article>
         <div>
           <img />
         </div>
         <div>
           <p>
-            Location: <span>{aboutData[0].location}</span>
+            Location: <span>{aboutInfo[0].location}</span>
           </p>
-          <section>{aboutData[0].bio}</section>
+          <section>{aboutInfo[0].bio}</section>
         </div>
       </article>
       <article>
