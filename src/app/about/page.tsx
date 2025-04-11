@@ -1,5 +1,5 @@
-import aboutInfo from '../../../public/about';
-import AboutMe from '@/components/about/aboutMe';
+import aboutInfo from "../../../public/about";
+import AboutMe from "@/components/AboutMe";
 
 export default function About() {
   return (
