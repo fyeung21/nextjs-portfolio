@@ -1,5 +1,7 @@
+import SkillsContainer from "@/components/SkillsContainer";
 import aboutInfo from "../../../public/about";
 import AboutMe from "@/components/AboutMe";
+import skillsList from "../../../public/skillsList";
 
 export default function About() {
   return (
@@ -11,14 +13,7 @@ export default function About() {
         location={aboutInfo[0].location}
         bio={aboutInfo[0].bio}
       />
-      <article>
-        <h3>Skills</h3>
-        <ul>
-          <li>js</li>
-          <li>php</li>
-          <li>react</li>
-        </ul>
-      </article>
+      <SkillsContainer skillsList={skillsList} />
     </section>
   );
 }
